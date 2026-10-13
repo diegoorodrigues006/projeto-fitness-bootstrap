@@ -1,0 +1,24 @@
+{
+  "name": "bootstrap",
+  "version": "1.0.0",
+  "description": "projeto-fitness-bootstrap",
+  "main": "index.js",
+  "scripts": {
+    "watch-sass": "sass --watch src/scss/style.scss src/css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diegoorodrigues006/projeto-fitness-bootstrap.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/diegoorodrigues006/projeto-fitness-bootstrap/issues"
+  },
+  "homepage": "https://github.com/diegoorodrigues006/projeto-fitness-bootstrap#readme",
+  "devDependencies": {
+    "sass": "^1.105.1"
+  }
+}

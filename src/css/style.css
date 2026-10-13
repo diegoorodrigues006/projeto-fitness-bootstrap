@@ -1,0 +1,33 @@
+.hero-section {
+  background: linear-gradient(135deg, #7b3894, #c94b4b);
+}
+
+.btn-destaque {
+  background-color: #ff4733;
+  border: none;
+}
+.btn-destaque:hover {
+  background-color: #ff1900;
+}
+
+.btn-app small {
+  font-size: 0.6rem;
+}
+
+.app-mockup {
+  width: 260px;
+  height: 520px;
+  border-radius: 2rem;
+}
+
+.secao-laranja {
+  background-color: #ff4d33;
+}
+
+.hr-customizado {
+  width: 100px;
+  border-top: 2px solid rgba(255, 255, 255, 0.3);
+  opacity: 1;
+}
+
+/*# sourceMappingURL=style.css.map */

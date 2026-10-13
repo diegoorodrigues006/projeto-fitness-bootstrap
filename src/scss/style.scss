@@ -1,0 +1,43 @@
+// Variáveis de cores e gradientes
+$cor-primaria: #ff4d33;
+$cor-botao: #ff4733;
+$gradiente-hero: linear-gradient(135deg, #7b3894, #c94b4b);
+
+// Cabeçalho Principal (Hero)
+.hero-section {
+  background: $gradiente-hero;
+}
+
+// Botões
+.btn-destaque {
+  background-color: $cor-botao;
+  border: none;
+  
+  &:hover {
+    background-color: darken($cor-botao, 10%); // Escurece um pouco ao passar o mouse
+  }
+}
+
+.btn-app {
+  small {
+    font-size: 0.6rem;
+  }
+}
+
+// Elementos Estruturais
+.app-mockup {
+  width: 260px;
+  height: 520px;
+  border-radius: 2rem;
+}
+
+.secao-laranja {
+  background-color: $cor-primaria;
+}
+
+// Divisor customizado (linha horizontal)
+.hr-customizado {
+  width: 100px;
+  border-top: 2px solid rgba(255, 255, 255, 0.3);
+  opacity: 1; 
+}
