@@ -102,3 +102,10 @@
 #circle-title, #circle-desc {
   transition: opacity 0.3s ease-in-out;
 }
+
+.footer-link, .footer-icon {
+  transition: color 0.3s ease;
+}
+.footer-link:hover, .footer-icon:hover {
+  color: #ff4733 !important;
+}

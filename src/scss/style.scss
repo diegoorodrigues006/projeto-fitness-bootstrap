@@ -111,3 +111,11 @@ $cor-laranja-forte: #ff4733;
 #circle-title, #circle-desc {
     transition: opacity 0.3s ease-in-out;
 }
+
+// Rodapé
+.footer-link, .footer-icon {
+    transition: color 0.3s ease;
+    &:hover {
+        color: $cor-laranja-forte !important;
+    }
+}
