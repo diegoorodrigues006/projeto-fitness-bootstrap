@@ -41,3 +41,73 @@ $gradiente-hero: linear-gradient(135deg, #7b3894, #c94b4b);
   border-top: 2px solid rgba(255, 255, 255, 0.3);
   opacity: 1; 
 }
+
+// Novas Variáveis
+$cor-roxa: #5a189a; 
+$cor-roxa-escura: #3d0066;
+$cor-laranja-forte: #ff4733;
+
+// Secções Roxas (Vídeo e Preços)
+.secao-roxa {
+    background-color: $cor-roxa;
+}
+
+// Helpers Background
+.bg-purple { background-color: $cor-roxa !important; }
+.bg-purple-light { background-color: #8338ec !important; }
+.bg-orange { background-color: $cor-laranja-forte !important; }
+.text-purple { color: $cor-roxa; }
+.text-orange { color: $cor-laranja-forte; }
+
+// Botões Auxiliares
+.btn-roxo-escuro {
+    background-color: $cor-roxa-escura;
+    color: white;
+    &:hover { background-color: darken($cor-roxa-escura, 10%); color: white;}
+}
+
+// Círculo Interativo
+.circle-wrapper {
+    width: 350px;
+    height: 350px;
+    position: relative;
+    
+    .center-circle {
+        width: 100%;
+        height: 100%;
+        border: 15px solid rgba(131, 56, 236, 0.3); // Borda translúcida em volta
+        transition: all 0.3s ease-in-out;
+    }
+
+    .orbit-btn {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        border: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.5rem;
+        cursor: pointer;
+        transition: transform 0.2s, background-color 0.3s;
+        z-index: 2;
+
+        &:hover, &.active {
+            transform: scale(1.15);
+            background-color: $cor-roxa-escura !important;
+        }
+    }
+}
+
+// Cartões de Preços
+.pricing-card {
+    transition: transform 0.3s;
+    
+    .card-footer {
+        background-color: $cor-laranja-forte;
+    }
+}
+
+#circle-title, #circle-desc {
+    transition: opacity 0.3s ease-in-out;
+}

@@ -30,4 +30,75 @@
   opacity: 1;
 }
 
-/*# sourceMappingURL=style.css.map */
+.secao-roxa {
+  background-color: #5a189a;
+}
+
+.bg-purple {
+  background-color: #5a189a !important;
+}
+
+.bg-purple-light {
+  background-color: #8338ec !important;
+}
+
+.bg-orange {
+  background-color: #ff4733 !important;
+}
+
+.text-purple {
+  color: #5a189a;
+}
+
+.text-orange {
+  color: #ff4733;
+}
+
+.btn-roxo-escuro {
+  background-color: #3d0066;
+  color: white;
+}
+.btn-roxo-escuro:hover {
+  background-color: rgb(30.5, 0, 51);
+  color: white;
+}
+
+.circle-wrapper {
+  width: 350px;
+  height: 350px;
+  position: relative;
+}
+.circle-wrapper .center-circle {
+  width: 100%;
+  height: 100%;
+  border: 15px solid rgba(131, 56, 236, 0.3);
+  transition: all 0.3s ease-in-out;
+}
+.circle-wrapper .orbit-btn {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: transform 0.2s, background-color 0.3s;
+  z-index: 2;
+}
+.circle-wrapper .orbit-btn:hover, .circle-wrapper .orbit-btn.active {
+  transform: scale(1.15);
+  background-color: #3d0066 !important;
+}
+
+.pricing-card {
+  transition: transform 0.3s;
+}
+.pricing-card .card-footer {
+  background-color: #ff4733;
+}
+
+#circle-title, #circle-desc {
+  transition: opacity 0.3s ease-in-out;
+}

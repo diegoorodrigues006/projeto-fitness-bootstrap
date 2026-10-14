@@ -1,4 +1,4 @@
-```html
+
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
@@ -91,7 +91,7 @@
                 <div class="col-lg-7">
                     <h1 class="display-4 fw-bold fst-italic mb-3">
                         Você já tentou sozinho.<br>
-                        Agora tente com uma equipa inteira do seu lado.
+                        Agora tente com uma equipe inteira do seu lado.
                     </h1>
 
                     <p class="lead fst-italic mb-5 fs-4">
@@ -163,54 +163,142 @@
     </section>
 
     <!-- SEÇÃO FUNCIONALIDADES -->
-    <section class="secao-laranja text-white pb-5">
-        <div class="container pb-5">
+<!-- SEÇÃO VÍDEO -->
+    <section class="secao-roxa text-white py-5">
+        <div class="container text-center py-5">
+            <h2 class="fw-bold mb-5 fs-1">Treinos, alimentação e bem-estar. <!--[cite: 10]--></h2>
+            
+            <div class="ratio ratio-16x9 mx-auto shadow-lg" style="max-width: 900px; border-radius: 20px; overflow: hidden; border: 4px solid #3d0099;">
+                <!-- Coloque o link embed do vídeo real no "src" abaixo -->
+                <iframe src="https://www.youtube.com/watch?v=9o85Ygd74WA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
 
-            <!-- Funcionalidade principal -->
-            <div class="row text-center mb-5">
-                <div class="col-md-10 mx-auto">
-                    <div class="d-flex flex-column align-items-center">
+    <!-- SEÇÃO CÍRCULO INTERATIVO -->
+    <section class="bg-white text-dark py-5">
+        <div class="container text-center py-5">
+            <h4 class="fst-italic fw-normal mx-auto lh-base text-purple" style="max-width: 800px; color: #5a189a;">
+                “Tudo em um único lugar. Acesse sua ficha de treino, cardápios, mande arquivos, acompanhe seus índices de saúde e muito mais. Tudo de forma rápida e prática no seu celular.” <!--[cite: 8]-->
+            </h4>
 
-                        <i class="bi bi-speedometer2 display-4 mb-3"></i>
-
-                        <h3 class="fw-bold">Medidas, Fotos e Bioimpedância</h3>
-
-                        <p class="mt-3 fs-5 lh-sm" style="max-width: 900px;">
-                            Você pode informar as suas medidas e, caso deseje, também pode enviar fotos corporais para analisarmos a sua evolução e resultados. Vamos identificar o seu <strong>biotipo</strong>, calcular o seu <strong>IMC, RCQ, percentagem de gordura</strong>, massa magra e saber qual a sua <strong>necessidade calórica diária</strong>, importante para desenvolvermos a sua alimentação.
-                        </p>
-
+            <div class="d-flex justify-content-center mt-5 pt-4">
+                <div class="circle-wrapper position-relative">
+                    <!-- Círculo Central -->
+                    <div class="center-circle bg-purple text-white rounded-circle d-flex flex-column justify-content-center align-items-center p-4 shadow-lg mx-auto position-relative z-1">
+                        <h5 id="circle-title" class="fw-bold mb-3">Treinos e exercícios detalhados <!--[cite: 8]--></h5>
+                        <p id="circle-desc" class="small mb-0">Todos os exercícios contam com instruções detalhadas em vídeo, animação e descrição explicando o movimento, para que você tenha o máximo entendimento sobre a correta execução. <!--[cite: 8]--></p>
                     </div>
+
+                    <!-- Botões Exteriores Orbitais -->
+                    <!-- Ícone Galeria -->
+                    <button class="orbit-btn bg-purple-light position-absolute shadow" data-title="Galeria de Evolução" data-desc="Acompanhe a sua evolução através de fotos guardadas diretamente na nossa plataforma." style="top: 10%; left: -10%;">
+                        <i class="bi bi-image text-white"></i> <!--[cite: 8]-->
+                    </button>
+                    <!-- Ícone Notificação -->
+                    <button class="orbit-btn bg-orange position-absolute shadow" data-title="Notificações e Lembretes" data-desc="Receba alertas para os seus treinos e refeições programadas." style="top: 10%; right: -10%;">
+                        <i class="bi bi-bell text-white"></i> <!--[cite: 8]-->
+                    </button>
+                    <!-- Ícone Água -->
+                    <button class="orbit-btn bg-orange position-absolute shadow" data-title="Hidratação" data-desc="Controle a sua ingestão de água diária de forma simples." style="top: 50%; left: -25%; transform: translateY(-50%);">
+                        <i class="bi bi-droplet text-white"></i> <!--[cite: 8]-->
+                    </button>
+                    <!-- Ícone Gráfico -->
+                    <button class="orbit-btn bg-orange position-absolute shadow" data-title="Gráficos de Saúde" data-desc="Acompanhe os seus índices de saúde e progresso muscular." style="top: 50%; right: -25%; transform: translateY(-50%);">
+                        <i class="bi bi-graph-up text-white"></i> <!--[cite: 8]-->
+                    </button>
+                    <!-- Ícone Maçã -->
+                    <button class="orbit-btn bg-orange position-absolute shadow" data-title="Plano Alimentar" data-desc="Acesso completo aos seus cardápios e substituições de alimentos." style="bottom: 10%; left: -10%;">
+                        <i class="bi bi-apple text-white"></i> <!--[cite: 8]-->
+                    </button>
+                    <!-- Ícone Chat -->
+                    <button class="orbit-btn bg-orange position-absolute shadow" data-title="Comunicação Direta" data-desc="Fale com a nossa equipa de treinadores e nutricionistas a qualquer momento." style="bottom: 10%; right: -10%;">
+                        <i class="bi bi-chat-left-text text-white"></i> <!--[cite: 8]-->
+                    </button>
                 </div>
             </div>
+        </div>
+    </section>
 
-            <!-- Funcionalidades em duas colunas -->
-            <div class="row text-center mt-5 pt-4">
+    <!-- SEÇÃO PLANOS E PREÇOS -->
+    <section class="secao-roxa text-white py-5">
+        <div class="container text-center py-5">
+            <h2 class="fw-bold mb-3 fs-1 text-white">Planos e preços <!--[cite: 9]--></h2>
+            <p class="mb-5 fs-5">
+                Por menos do que você gasta com uma pizza por mês, você tem um time completo de saúde. <!--[cite: 9]--><br>
+                <small class="fw-light">Todos os planos incluem Personal Trainer, Nutricionista e Psicólogo. <!--[cite: 9]--></small>
+            </p>
 
-                <div class="col-lg-6 px-4 mb-5 mb-lg-0">
-                    <div class="d-flex flex-column align-items-center">
-
-                        <i class="bi bi-usb-symbol display-4 mb-3" style="transform: rotate(90deg);"></i>
-
-                        <h3 class="fw-bold">Treinos e Plano de Ação</h3>
-
-                        <p class="mt-3 fs-5 lh-sm">
-                            Após analisar todas as suas informações e objetivos, um <strong>plano de ação</strong> será desenvolvido com <strong>metas claras e realistas</strong>. O seu Personal Trainer irá elaborar treinos e orientá-lo. Sempre que desejar, pode pedir ajustes, trocas de exercícios e informar mudanças na sua rotina. <strong>A comunicação entre vocês é livre.</strong>
-                        </p>
-
+            <div class="row g-4 justify-content-center mt-4">
+                
+                <!-- Plano 1 Mês -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="card pricing-card h-100 border-0 rounded-4 overflow-hidden shadow-lg">
+                        <div class="card-body bg-white text-dark text-start p-4 pt-5 pb-5">
+                            <h3 class="text-orange text-center fw-bold mb-4 fs-2">1 mês <!--[cite: 9]--></h3>
+                            <ul class="list-unstyled mb-4 lh-lg">
+                                <li><i class="bi bi-check2 text-orange me-2 fs-5"></i> Inclui Personal Trainer <!--[cite: 9]--></li>
+                                <li><i class="bi bi-check2 text-orange me-2 fs-5"></i> Inclui Nutricionista <!--[cite: 9]--></li>
+                                <li><i class="bi bi-check2 text-orange me-2 fs-5"></i> Inclui Psicólogo <!--[cite: 9]--></li>
+                                <li><i class="bi bi-check2 text-orange me-2 fs-5"></i> Cobrança recorrente automática mensal. <!--[cite: 9]--></li>
+                                <li><i class="bi bi-check2 text-orange me-2 fs-5"></i> Cancele quando quiser. <!--[cite: 9]--></li>
+                            </ul>
+                            <div class="d-flex justify-content-center gap-3 fs-3 text-muted mt-5">
+                                <i class="bi bi-credit-card"></i> <i class="bi bi-upc-scan"></i> <i class="bi bi-currency-bitcoin"></i>
+                            </div>
+                        </div>
+                        <div class="card-footer bg-orange text-white text-center p-4 border-0">
+                            <p class="mb-1 small">Apenas <!--[cite: 9]--></p>
+                            <h2 class="fw-bold display-5 mb-0">R$ 64,99 <!--[cite: 9]--></h2>
+                            <p class="small mb-4">por mês <!--[cite: 9]--></p>
+                            <button class="btn btn-roxo-escuro btn-lg rounded-pill fw-bold w-100 py-3">Começar agora <!--[cite: 9]--></button>
+                        </div>
                     </div>
                 </div>
 
-                <div class="col-lg-6 px-4">
-                    <div class="d-flex flex-column align-items-center">
+                <!-- Plano 6 Meses -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="card pricing-card h-100 border-0 rounded-4 overflow-hidden shadow-lg position-relative" style="transform: scale(1.05); z-index: 2;">
+                        <div class="card-body bg-white text-dark text-start p-4 pt-5 pb-5">
+                            <h3 class="text-orange text-center fw-bold mb-4 fs-2">6 meses <!--[cite: 9]--></h3>
+                            <ul class="list-unstyled mb-4 lh-lg">
+                                <li><i class="bi bi-check2 text-orange me-2 fs-5"></i> Inclui Personal Trainer <!--[cite: 9]--></li>
+                                <li><i class="bi bi-check2 text-orange me-2 fs-5"></i> Inclui Nutricionista <!--[cite: 9]--></li>
+                                <li><i class="bi bi-check2 text-orange me-2 fs-5"></i> Inclui Psicólogo <!--[cite: 9]--></li>
+                                <li><i class="bi bi-check2 text-orange me-2 fs-5"></i> Acesse o serviço durante <strong>6 meses</strong>. <!--[cite: 9]--></li>
+                                <li><i class="bi bi-check2 text-orange me-2 fs-5"></i> Economize <strong>R$ 192,00</strong>. <!--[cite: 9]--></li>
+                                <li><i class="bi bi-check2 text-orange me-2 fs-5"></i> Total de R$ 197,94 em até 6x. <!--[cite: 9]--></li>
+                            </ul>
+                        </div>
+                        <div class="card-footer bg-orange text-white text-center p-4 border-0">
+                            <p class="mb-1 small">De <del>R$ 64,99</del> por <!--[cite: 9]--></p>
+                            <h2 class="fw-bold display-5 mb-0">R$ 32,99 <!--[cite: 9]--></h2>
+                            <p class="small mb-4">por mês <!--[cite: 9]--></p>
+                            <button class="btn btn-roxo-escuro btn-lg rounded-pill fw-bold w-100 py-3">Escolher este plano <!--[cite: 9]--></button>
+                        </div>
+                    </div>
+                </div>
 
-                        <i class="bi bi-flower1 display-4 mb-3"></i>
-
-                        <h3 class="fw-bold">Cardápios e Dietas</h3>
-
-                        <p class="mt-3 fs-5 lh-sm">
-                            Junto com o seu treino, terá à disposição dezenas de modelos de <strong>cardápios</strong> que irão servir de base para que a nutricionista realize os ajustes conforme as suas necessidades, gostos e possibilidades. Com eles, poderá controlar as suas <strong>calorias e macronutrientes</strong>. A qualquer momento, pode consultar a nutricionista, que estará disponível para ajudar.
-                        </p>
-
+                <!-- Plano 12 Meses -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="card pricing-card h-100 border-0 rounded-4 overflow-hidden shadow-lg">
+                        <div class="card-body bg-white text-dark text-start p-4 pt-5 pb-5">
+                            <h3 class="text-orange text-center fw-bold mb-4 fs-2">12 meses <!--[cite: 9]--></h3>
+                            <ul class="list-unstyled mb-4 lh-lg">
+                                <li><i class="bi bi-check2 text-orange me-2 fs-5"></i> Inclui Personal Trainer <!--[cite: 9]--></li>
+                                <li><i class="bi bi-check2 text-orange me-2 fs-5"></i> Inclui Nutricionista <!--[cite: 9]--></li>
+                                <li><i class="bi bi-check2 text-orange me-2 fs-5"></i> Inclui Psicólogo <!--[cite: 9]--></li>
+                                <li><i class="bi bi-check2 text-orange me-2 fs-5"></i> Acesse o serviço durante <strong>12 meses</strong>. <!--[cite: 9]--></li>
+                                <li><i class="bi bi-check2 text-orange me-2 fs-5"></i> Economize <strong>R$ 540,00</strong>. <!--[cite: 9]--></li>
+                                <li><i class="bi bi-check2 text-orange me-2 fs-5"></i> Total de R$ 239,88 em até 12x. <!--[cite: 9]--></li>
+                            </ul>
+                        </div>
+                        <div class="card-footer bg-orange text-white text-center p-4 border-0">
+                            <p class="mb-1 small">De <del>R$ 64,99</del> por <!--[cite: 9]--></p>
+                            <h2 class="fw-bold display-5 mb-0">R$ 19,99 <!--[cite: 9]--></h2>
+                            <p class="small mb-4">por mês <!--[cite: 9]--></p>
+                            <button class="btn btn-roxo-escuro btn-lg rounded-pill fw-bold w-100 py-3">Escolher este plano <!--[cite: 9]--></button>
+                        </div>
                     </div>
                 </div>
 
@@ -220,7 +308,8 @@
 
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
-
+    <!-- Script Personalizado -->
+    <script src="src/js/script.js"></script>
 </body>
 </html>
 ```
