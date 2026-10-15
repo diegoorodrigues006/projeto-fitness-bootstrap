@@ -1,15 +1,13 @@
-
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-PT">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <title>Personal Virtual</title>
-
-<title>Personal Virtual</title>
-
-<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Crect width='24' height='24' rx='4' fill='%23212529'/%3E%3Cpath d='M3 12h5l5-7 4 14 3-7h1' fill='none' stroke='%23dc3545' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
-
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Crect width='24' height='24' rx='4' fill='%23212529'/%3E%3Cpath d='M3 12h5l5-7 4 14 3-7h1' fill='none' stroke='%23dc3545' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -22,84 +20,54 @@
 </head>
 <body>
 
-    <!-- SEÇÃO HERO -->
+    <!-- ========================================== -->
+    <!-- CABEÇALHO E HERO (Destaque Inicial)        -->
+    <!-- ========================================== -->
     <header class="hero-section bg-dark text-white pb-5">
 
         <!-- Navbar -->
         <nav class="navbar navbar-expand-lg navbar-dark bg-transparent pt-4">
             <div class="container">
-
+                <!-- Logótipo -->
                 <a class="navbar-brand fw-bold text-danger fs-4 d-flex align-items-center gap-2" href="#">
-                    <svg xmlns="http://www.w3.org/2000/svg"
-                         width="32"
-                         height="32"
-                         viewBox="0 0 24 24"
-                         fill="none"
-                         stroke="#dc3545"
-                         stroke-width="2"
-                         stroke-linecap="round"
-                         stroke-linejoin="round"
-                         aria-hidden="true">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#dc3545" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
                         <path d="M22 12h-4l-3 9L9 3l-3 9H2"/>
                     </svg>
                     personal virtual
                 </a>
 
-                <button class="navbar-toggler" type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#navbarNav"
-                        aria-controls="navbarNav"
-                        aria-expanded="false"
-                        aria-label="Abrir menu de navegação">
+                <!-- Botão Menu Mobile -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Abrir menu de navegação">
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
+                <!-- Links da Navbar -->
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ms-auto align-items-center fw-semibold">
-                        <li class="nav-item">
-                            <a class="nav-link text-white" href="#">Como funciona?</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-white" href="#">Planos e preços</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-white" href="#">Para ginásios</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-white" href="#">Para empresas</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-white" href="#">Blog</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-white" href="#">Entrar</a>
-                        </li>
+                        <li class="nav-item"><a class="nav-link text-white" href="#">Como funciona?</a></li>
+                        <li class="nav-item"><a class="nav-link text-white" href="#">Planos e preços</a></li>
+                        <li class="nav-item"><a class="nav-link text-white" href="#">Para ginásios</a></li>
+                        <li class="nav-item"><a class="nav-link text-white" href="#">Para empresas</a></li>
+                        <li class="nav-item"><a class="nav-link text-white" href="#">Blog</a></li>
+                        <li class="nav-item"><a class="nav-link text-white" href="#">Entrar</a></li>
                         <li class="nav-item ms-lg-3 mt-3 mt-lg-0">
-                            <a class="btn btn-destaque text-white rounded-pill fw-bold px-4" href="#">
-                                Comece agora!
-                            </a>
+                            <a class="btn btn-destaque text-white rounded-pill fw-bold px-4" href="#">Comece agora!</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
 
-        <!-- Conteúdo Hero -->
+        <!-- Conteúdo Hero (Texto e Celular) -->
         <div class="container py-5 mt-4">
             <div class="row align-items-center">
-
+                <!-- Textos à Esquerda -->
                 <div class="col-lg-7">
-                    <h1 class="display-4 fw-bold fst-italic mb-3">
-                        Você já tentou sozinho.<br>
-                        Agora tente com uma equipe inteira do seu lado.
-                    </h1>
-
-                    <p class="lead fst-italic mb-5 fs-4">
-                        Personal Trainer, Nutricionista e Psicólogo no seu telemóvel — por menos de R$ 0,40 por dia.
-                    </p>
-
+                    <h1 class="display-4 fw-bold fst-italic mb-3">Você já tentou sozinho.<br>Agora tente com uma equipa inteira do seu lado.</h1>
+                    <p class="lead fst-italic mb-5 fs-4">Personal Trainer, Nutricionista e Psicólogo no seu telemóvel — por menos de R$ 0,40 por dia.</p>
                     <p class="fst-italic mb-2 fs-5">Baixe o nosso app!</p>
 
+                    <!-- Botões das Lojas de Apps -->
                     <div class="d-flex gap-3 flex-wrap">
                         <a href="#" class="btn-app btn btn-dark border border-secondary rounded px-4 py-2 d-flex align-items-center gap-2">
                             <i class="bi bi-google-play fs-4"></i>
@@ -108,7 +76,6 @@
                                 <strong>Google Play</strong>
                             </div>
                         </a>
-
                         <a href="#" class="btn-app btn btn-dark border border-secondary rounded px-4 py-2 d-flex align-items-center gap-2">
                             <i class="bi bi-apple fs-4"></i>
                             <div class="text-start lh-1">
@@ -119,200 +86,185 @@
                     </div>
                 </div>
 
-                <!-- Mockup do aplicativo -->
+                <!-- Mockup do Aplicativo à Direita -->
                 <div class="col-lg-5 text-center d-none d-lg-block mt-5 mt-lg-0">
                     <div class="app-mockup bg-dark border border-secondary border-4 mx-auto d-flex align-items-center justify-content-center shadow-lg position-relative">
-
-                        <svg xmlns="http://www.w3.org/2000/svg"
-                             width="64"
-                             height="64"
-                             viewBox="0 0 24 24"
-                             fill="none"
-                             stroke="#dc3545"
-                             stroke-width="2"
-                             stroke-linecap="round"
-                             stroke-linejoin="round"
-                             aria-hidden="true">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="#dc3545" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
                             <path d="M2 12h5l3-6 4 14 3-8h5"/>
                         </svg>
-
                     </div>
                 </div>
-
             </div>
 
+            <!-- Seta para baixo -->
             <div class="text-center mt-5 pt-4">
                 <i class="bi bi-chevron-down fs-1 text-white"></i>
             </div>
         </div>
     </header>
 
-    <!-- SEÇÃO COMO FUNCIONA -->
+    <!-- ========================================== -->
+    <!-- SECÇÃO: COMO FUNCIONA (Texto introdutório) -->
+    <!-- ========================================== -->
     <section class="secao-laranja text-white py-5">
         <div class="container py-5 text-center">
-
             <h2 class="fw-bold mb-4 fs-1">Como funciona?</h2>
             <hr class="hr-customizado mx-auto mb-5">
-
             <h4 class="fst-italic fw-normal mb-5 mx-auto lh-base" style="max-width: 800px;">
                 “Todo o atendimento, contacto com os profissionais e conteúdos apresentados acontecem diretamente no nosso app, tudo online, sem contacto presencial.”
             </h4>
-
             <hr class="hr-customizado mx-auto mb-5">
         </div>
     </section>
 
-    <!-- SEÇÃO FUNCIONALIDADES -->
-<!-- SEÇÃO VÍDEO -->
+    <!-- ========================================== -->
+    <!-- SECÇÃO: VÍDEO                              -->
+    <!-- ========================================== -->
     <section class="secao-roxa text-white py-5">
         <div class="container text-center py-5">
-            <h2 class="fw-bold mb-5 fs-1">Treinos, alimentação e bem-estar. <!--[cite: 10]--></h2>
-            
+            <h2 class="fw-bold mb-5 fs-1">Treinos, alimentação e bem-estar.</h2>
             <div class="ratio ratio-16x9 mx-auto shadow-lg" style="max-width: 900px; border-radius: 20px; overflow: hidden; border: 4px solid #3d0099;">
-                <!-- Coloque o link embed do vídeo real no "src" abaixo -->
-                <iframe src="https://www.youtube.com/watch?v=9o85Ygd74WA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/embed/9o85Ygd74WA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
         </div>
     </section>
 
-    <!-- SEÇÃO CÍRCULO INTERATIVO -->
+    <!-- ========================================== -->
+    <!-- SECÇÃO: CÍRCULO INTERATIVO (Recursos)      -->
+    <!-- ========================================== -->
     <section class="bg-white text-dark py-5">
         <div class="container text-center py-5">
             <h4 class="fst-italic fw-normal mx-auto lh-base text-purple" style="max-width: 800px; color: #5a189a;">
-                “Tudo em um único lugar. Acesse sua ficha de treino, cardápios, mande arquivos, acompanhe seus índices de saúde e muito mais. Tudo de forma rápida e prática no seu celular.” <!--[cite: 8]-->
+                “Tudo em um único lugar. Acesse sua ficha de treino, cardápios, mande arquivos, acompanhe seus índices de saúde e muito mais. Tudo de forma rápida e prática no seu celular.”
             </h4>
 
             <div class="d-flex justify-content-center mt-5 pt-4">
                 <div class="circle-wrapper position-relative">
-                    <!-- Círculo Central -->
+                    
+                    <!-- Círculo Central de Informação -->
                     <div class="center-circle bg-purple text-white rounded-circle d-flex flex-column justify-content-center align-items-center p-4 shadow-lg mx-auto position-relative z-1">
-                        <h5 id="circle-title" class="fw-bold mb-3">Treinos e exercícios detalhados <!--[cite: 8]--></h5>
-                        <p id="circle-desc" class="small mb-0">Todos os exercícios contam com instruções detalhadas em vídeo, animação e descrição explicando o movimento, para que você tenha o máximo entendimento sobre a correta execução. <!--[cite: 8]--></p>
+                        <h5 id="circle-title" class="fw-bold mb-3">Treinos e exercícios detalhados</h5>
+                        <p id="circle-desc" class="small mb-0">Todos os exercícios contam com instruções detalhadas em vídeo, animação e descrição explicando o movimento, para que você tenha o máximo entendimento sobre a correta execução.</p>
                     </div>
 
-                    <!-- Botões Exteriores Orbitais -->
-                    <!-- Ícone Galeria -->
+                    <!-- Botões Órbitas -->
                     <button class="orbit-btn bg-purple-light position-absolute shadow" data-title="Galeria de Evolução" data-desc="Acompanhe a sua evolução através de fotos guardadas diretamente na nossa plataforma." style="top: 10%; left: -10%;">
-                        <i class="bi bi-image text-white"></i> <!--[cite: 8]-->
+                        <i class="bi bi-image text-white"></i>
                     </button>
-                    <!-- Ícone Notificação -->
                     <button class="orbit-btn bg-orange position-absolute shadow" data-title="Notificações e Lembretes" data-desc="Receba alertas para os seus treinos e refeições programadas." style="top: 10%; right: -10%;">
-                        <i class="bi bi-bell text-white"></i> <!--[cite: 8]-->
+                        <i class="bi bi-bell text-white"></i>
                     </button>
-                    <!-- Ícone Água -->
                     <button class="orbit-btn bg-orange position-absolute shadow" data-title="Hidratação" data-desc="Controle a sua ingestão de água diária de forma simples." style="top: 50%; left: -25%; transform: translateY(-50%);">
-                        <i class="bi bi-droplet text-white"></i> <!--[cite: 8]-->
+                        <i class="bi bi-droplet text-white"></i>
                     </button>
-                    <!-- Ícone Gráfico -->
                     <button class="orbit-btn bg-orange position-absolute shadow" data-title="Gráficos de Saúde" data-desc="Acompanhe os seus índices de saúde e progresso muscular." style="top: 50%; right: -25%; transform: translateY(-50%);">
-                        <i class="bi bi-graph-up text-white"></i> <!--[cite: 8]-->
+                        <i class="bi bi-graph-up text-white"></i>
                     </button>
-                    <!-- Ícone Maçã -->
                     <button class="orbit-btn bg-orange position-absolute shadow" data-title="Plano Alimentar" data-desc="Acesso completo aos seus cardápios e substituições de alimentos." style="bottom: 10%; left: -10%;">
-                        <i class="bi bi-apple text-white"></i> <!--[cite: 8]-->
+                        <i class="bi bi-apple text-white"></i>
                     </button>
-                    <!-- Ícone Chat -->
                     <button class="orbit-btn bg-orange position-absolute shadow" data-title="Comunicação Direta" data-desc="Fale com a nossa equipa de treinadores e nutricionistas a qualquer momento." style="bottom: 10%; right: -10%;">
-                        <i class="bi bi-chat-left-text text-white"></i> <!--[cite: 8]-->
+                        <i class="bi bi-chat-left-text text-white"></i>
                     </button>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- SEÇÃO PLANOS E PREÇOS -->
+    <!-- ========================================== -->
+    <!-- SECÇÃO: PLANOS E PREÇOS                    -->
+    <!-- ========================================== -->
     <section class="secao-roxa text-white py-5">
         <div class="container text-center py-5">
-            <h2 class="fw-bold mb-3 fs-1 text-white">Planos e preços <!--[cite: 9]--></h2>
+            <h2 class="fw-bold mb-3 fs-1 text-white">Planos e preços</h2>
             <p class="mb-5 fs-5">
-                Por menos do que você gasta com uma pizza por mês, você tem um time completo de saúde. <!--[cite: 9]--><br>
-                <small class="fw-light">Todos os planos incluem Personal Trainer, Nutricionista e Psicólogo. <!--[cite: 9]--></small>
+                Por menos do que você gasta com uma pizza por mês, você tem um time completo de saúde.<br>
+                <small class="fw-light">Todos os planos incluem Personal Trainer, Nutricionista e Psicólogo.</small>
             </p>
 
             <div class="row g-4 justify-content-center mt-4">
-                
-                <!-- Plano 1 Mês -->
+                <!-- Card Plano 1 Mês -->
                 <div class="col-lg-4 col-md-6">
                     <div class="card pricing-card h-100 border-0 rounded-4 overflow-hidden shadow-lg">
                         <div class="card-body bg-white text-dark text-start p-4 pt-5 pb-5">
-                            <h3 class="text-orange text-center fw-bold mb-4 fs-2">1 mês <!--[cite: 9]--></h3>
+                            <h3 class="text-orange text-center fw-bold mb-4 fs-2">1 mês</h3>
                             <ul class="list-unstyled mb-4 lh-lg">
-                                <li><i class="bi bi-check2 text-orange me-2 fs-5"></i> Inclui Personal Trainer <!--[cite: 9]--></li>
-                                <li><i class="bi bi-check2 text-orange me-2 fs-5"></i> Inclui Nutricionista <!--[cite: 9]--></li>
-                                <li><i class="bi bi-check2 text-orange me-2 fs-5"></i> Inclui Psicólogo <!--[cite: 9]--></li>
-                                <li><i class="bi bi-check2 text-orange me-2 fs-5"></i> Cobrança recorrente automática mensal. <!--[cite: 9]--></li>
-                                <li><i class="bi bi-check2 text-orange me-2 fs-5"></i> Cancele quando quiser. <!--[cite: 9]--></li>
+                                <li><i class="bi bi-check2 text-orange me-2 fs-5"></i> Inclui Personal Trainer</li>
+                                <li><i class="bi bi-check2 text-orange me-2 fs-5"></i> Inclui Nutricionista</li>
+                                <li><i class="bi bi-check2 text-orange me-2 fs-5"></i> Inclui Psicólogo</li>
+                                <li><i class="bi bi-check2 text-orange me-2 fs-5"></i> Cobrança recorrente automática mensal.</li>
+                                <li><i class="bi bi-check2 text-orange me-2 fs-5"></i> Cancele quando quiser.</li>
                             </ul>
                             <div class="d-flex justify-content-center gap-3 fs-3 text-muted mt-5">
                                 <i class="bi bi-credit-card"></i> <i class="bi bi-upc-scan"></i> <i class="bi bi-currency-bitcoin"></i>
                             </div>
                         </div>
                         <div class="card-footer bg-orange text-white text-center p-4 border-0">
-                            <p class="mb-1 small">Apenas <!--[cite: 9]--></p>
-                            <h2 class="fw-bold display-5 mb-0">R$ 64,99 <!--[cite: 9]--></h2>
-                            <p class="small mb-4">por mês <!--[cite: 9]--></p>
-                            <button class="btn btn-roxo-escuro btn-lg rounded-pill fw-bold w-100 py-3">Começar agora <!--[cite: 9]--></button>
+                            <p class="mb-1 small">Apenas</p>
+                            <h2 class="fw-bold display-5 mb-0">R$ 64,99</h2>
+                            <p class="small mb-4">por mês</p>
+                            <button class="btn btn-roxo-escuro btn-lg rounded-pill fw-bold w-100 py-3">Começar agora</button>
                         </div>
                     </div>
                 </div>
 
-                <!-- Plano 6 Meses -->
+                <!-- Card Plano 6 Meses -->
                 <div class="col-lg-4 col-md-6">
                     <div class="card pricing-card h-100 border-0 rounded-4 overflow-hidden shadow-lg position-relative" style="transform: scale(1.05); z-index: 2;">
                         <div class="card-body bg-white text-dark text-start p-4 pt-5 pb-5">
-                            <h3 class="text-orange text-center fw-bold mb-4 fs-2">6 meses <!--[cite: 9]--></h3>
+                            <h3 class="text-orange text-center fw-bold mb-4 fs-2">6 meses</h3>
                             <ul class="list-unstyled mb-4 lh-lg">
-                                <li><i class="bi bi-check2 text-orange me-2 fs-5"></i> Inclui Personal Trainer <!--[cite: 9]--></li>
-                                <li><i class="bi bi-check2 text-orange me-2 fs-5"></i> Inclui Nutricionista <!--[cite: 9]--></li>
-                                <li><i class="bi bi-check2 text-orange me-2 fs-5"></i> Inclui Psicólogo <!--[cite: 9]--></li>
-                                <li><i class="bi bi-check2 text-orange me-2 fs-5"></i> Acesse o serviço durante <strong>6 meses</strong>. <!--[cite: 9]--></li>
-                                <li><i class="bi bi-check2 text-orange me-2 fs-5"></i> Economize <strong>R$ 192,00</strong>. <!--[cite: 9]--></li>
-                                <li><i class="bi bi-check2 text-orange me-2 fs-5"></i> Total de R$ 197,94 em até 6x. <!--[cite: 9]--></li>
+                                <li><i class="bi bi-check2 text-orange me-2 fs-5"></i> Inclui Personal Trainer</li>
+                                <li><i class="bi bi-check2 text-orange me-2 fs-5"></i> Inclui Nutricionista</li>
+                                <li><i class="bi bi-check2 text-orange me-2 fs-5"></i> Inclui Psicólogo</li>
+                                <li><i class="bi bi-check2 text-orange me-2 fs-5"></i> Acesse o serviço durante <strong>6 meses</strong>.</li>
+                                <li><i class="bi bi-check2 text-orange me-2 fs-5"></i> Economize <strong>R$ 192,00</strong>.</li>
+                                <li><i class="bi bi-check2 text-orange me-2 fs-5"></i> Total de R$ 197,94 em até 6x.</li>
                             </ul>
                         </div>
                         <div class="card-footer bg-orange text-white text-center p-4 border-0">
-                            <p class="mb-1 small">De <del>R$ 64,99</del> por <!--[cite: 9]--></p>
-                            <h2 class="fw-bold display-5 mb-0">R$ 32,99 <!--[cite: 9]--></h2>
-                            <p class="small mb-4">por mês <!--[cite: 9]--></p>
-                            <button class="btn btn-roxo-escuro btn-lg rounded-pill fw-bold w-100 py-3">Escolher este plano <!--[cite: 9]--></button>
+                            <p class="mb-1 small">De <del>R$ 64,99</del> por</p>
+                            <h2 class="fw-bold display-5 mb-0">R$ 32,99</h2>
+                            <p class="small mb-4">por mês</p>
+                            <button class="btn btn-roxo-escuro btn-lg rounded-pill fw-bold w-100 py-3">Escolher este plano</button>
                         </div>
                     </div>
                 </div>
 
-                <!-- Plano 12 Meses -->
+                <!-- Card Plano 12 Meses -->
                 <div class="col-lg-4 col-md-6">
                     <div class="card pricing-card h-100 border-0 rounded-4 overflow-hidden shadow-lg">
                         <div class="card-body bg-white text-dark text-start p-4 pt-5 pb-5">
-                            <h3 class="text-orange text-center fw-bold mb-4 fs-2">12 meses <!--[cite: 9]--></h3>
+                            <h3 class="text-orange text-center fw-bold mb-4 fs-2">12 meses</h3>
                             <ul class="list-unstyled mb-4 lh-lg">
-                                <li><i class="bi bi-check2 text-orange me-2 fs-5"></i> Inclui Personal Trainer <!--[cite: 9]--></li>
-                                <li><i class="bi bi-check2 text-orange me-2 fs-5"></i> Inclui Nutricionista <!--[cite: 9]--></li>
-                                <li><i class="bi bi-check2 text-orange me-2 fs-5"></i> Inclui Psicólogo <!--[cite: 9]--></li>
-                                <li><i class="bi bi-check2 text-orange me-2 fs-5"></i> Acesse o serviço durante <strong>12 meses</strong>. <!--[cite: 9]--></li>
-                                <li><i class="bi bi-check2 text-orange me-2 fs-5"></i> Economize <strong>R$ 540,00</strong>. <!--[cite: 9]--></li>
-                                <li><i class="bi bi-check2 text-orange me-2 fs-5"></i> Total de R$ 239,88 em até 12x. <!--[cite: 9]--></li>
+                                <li><i class="bi bi-check2 text-orange me-2 fs-5"></i> Inclui Personal Trainer</li>
+                                <li><i class="bi bi-check2 text-orange me-2 fs-5"></i> Inclui Nutricionista</li>
+                                <li><i class="bi bi-check2 text-orange me-2 fs-5"></i> Inclui Psicólogo</li>
+                                <li><i class="bi bi-check2 text-orange me-2 fs-5"></i> Acesse o serviço durante <strong>12 meses</strong>.</li>
+                                <li><i class="bi bi-check2 text-orange me-2 fs-5"></i> Economize <strong>R$ 540,00</strong>.</li>
+                                <li><i class="bi bi-check2 text-orange me-2 fs-5"></i> Total de R$ 239,88 em até 12x.</li>
                             </ul>
                         </div>
                         <div class="card-footer bg-orange text-white text-center p-4 border-0">
-                            <p class="mb-1 small">De <del>R$ 64,99</del> por <!--[cite: 9]--></p>
-                            <h2 class="fw-bold display-5 mb-0">R$ 19,99 <!--[cite: 9]--></h2>
-                            <p class="small mb-4">por mês <!--[cite: 9]--></p>
-                            <button class="btn btn-roxo-escuro btn-lg rounded-pill fw-bold w-100 py-3">Escolher este plano <!--[cite: 9]--></button>
+                            <p class="mb-1 small">De <del>R$ 64,99</del> por</p>
+                            <h2 class="fw-bold display-5 mb-0">R$ 19,99</h2>
+                            <p class="small mb-4">por mês</p>
+                            <button class="btn btn-roxo-escuro btn-lg rounded-pill fw-bold w-100 py-3">Escolher este plano</button>
                         </div>
                     </div>
                 </div>
-
             </div>
         </div>
     </section>
 
-    <!-- RODAPÉ -->
-<!-- RODAPÉ -->
+    <!-- ========================================== -->
+    <!-- RODAPÉ (Footer)                            -->
+    <!-- ========================================== -->
     <footer class="bg-dark text-white pt-5 pb-4 mt-auto">
         <div class="container">
             <div class="row gy-4">
                 
-                <!-- Logo e Descrição -->
+                <!-- Logo e Descrição da Empresa -->
                 <div class="col-lg-4 col-md-6">
                     <a class="navbar-brand fw-bold text-white fs-4 d-flex align-items-center gap-2 mb-3 text-decoration-none" href="#">
                         <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#dc3545" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
@@ -325,7 +277,7 @@
                     </p>
                 </div>
                 
-                <!-- Links -->
+                <!-- Coluna de Links Internos -->
                 <div class="col-lg-2 col-md-6">
                     <h5 class="fw-bold mb-3 fs-6">Links Úteis</h5>
                     <ul class="list-unstyled">
@@ -335,7 +287,7 @@
                     </ul>
                 </div>
 
-                <!-- Contacto -->
+                <!-- Coluna de Contacto -->
                 <div class="col-lg-3 col-md-6">
                     <h5 class="fw-bold mb-3 fs-6">Contacto</h5>
                     <ul class="list-unstyled text-white-50 small">
@@ -344,7 +296,7 @@
                     </ul>
                 </div>
 
-                <!-- Redes Sociais -->
+                <!-- Coluna Redes Sociais -->
                 <div class="col-lg-3 col-md-6">
                     <h5 class="fw-bold mb-3 fs-6">Siga-nos</h5>
                     <div class="d-flex gap-3">
@@ -353,20 +305,24 @@
                         <a href="#" class="text-white-50 footer-icon fs-5"><i class="bi bi-youtube"></i></a>
                     </div>
                 </div>
-
             </div>
 
+            <!-- Divisória Final -->
             <hr class="my-4 border-secondary opacity-25">
-            
             <div class="text-center text-white-50 small">
                 &copy; 2026 Personal Virtual. Todos os direitos reservados.
             </div>
         </div>
     </footer>
 
-    <!-- Bootstrap JS -->
+    <!-- ========================================== -->
+    <!-- SCRIPTS DE FUNCIONAMENTO                   -->
+    <!-- ========================================== -->
+    <!-- Bootstrap JS Bundle com Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
-    <!-- Script Personalizado -->
+    
+    <!-- Script Personalizado (Interatividade do Círculo) -->
     <script src="src/js/script.js"></script>
+
 </body>
 </html>

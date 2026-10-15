@@ -1,72 +1,83 @@
-// Variáveis de cores e gradientes
+// ==========================================
+// 1. VARIÁVEIS (Cores e Gradientes)
+// ==========================================
 $cor-primaria: #ff4d33;
-$cor-botao: #ff4733;
-$gradiente-hero: linear-gradient(135deg, #7b3894, #c94b4b);
+$cor-laranja-forte: #ff4733;
+$cor-botao: #ff4733; 
 
-// Cabeçalho Principal (Hero)
-.hero-section {
-  background: $gradiente-hero;
-}
-
-// Botões
-.btn-destaque {
-  background-color: $cor-botao;
-  border: none;
-  
-  &:hover {
-    background-color: darken($cor-botao, 10%); // Escurece um pouco ao passar o mouse
-  }
-}
-
-.btn-app {
-  small {
-    font-size: 0.6rem;
-  }
-}
-
-// Elementos Estruturais
-.app-mockup {
-  width: 260px;
-  height: 520px;
-  border-radius: 2rem;
-}
-
-.secao-laranja {
-  background-color: $cor-primaria;
-}
-
-// Divisor customizado (linha horizontal)
-.hr-customizado {
-  width: 100px;
-  border-top: 2px solid rgba(255, 255, 255, 0.3);
-  opacity: 1; 
-}
-
-// Novas Variáveis
 $cor-roxa: #5a189a; 
 $cor-roxa-escura: #3d0066;
-$cor-laranja-forte: #ff4733;
+$gradiente-hero: linear-gradient(135deg, #7b3894, #c94b4b);
 
-// Secções Roxas (Vídeo e Preços)
-.secao-roxa {
-    background-color: $cor-roxa;
-}
 
-// Helpers Background
+// ==========================================
+// 2. CLASSES AUXILIARES E GLOBAIS (Helpers)
+// ==========================================
+// Fundos Gerais
+.secao-laranja { background-color: $cor-primaria; }
+.secao-roxa { background-color: $cor-roxa; }
+
+// Helpers de Fundo (Backgrounds)
 .bg-purple { background-color: $cor-roxa !important; }
 .bg-purple-light { background-color: #8338ec !important; }
 .bg-orange { background-color: $cor-laranja-forte !important; }
+
+// Helpers de Texto
 .text-purple { color: $cor-roxa; }
 .text-orange { color: $cor-laranja-forte; }
 
-// Botões Auxiliares
+// Divisor Customizado (Linha Horizontal)
+.hr-customizado {
+    width: 100px;
+    border-top: 2px solid rgba(255, 255, 255, 0.3);
+    opacity: 1; 
+}
+
+
+// ==========================================
+// 3. COMPONENTES (Botões)
+// ==========================================
+.btn-destaque {
+    background-color: $cor-botao;
+    border: none;
+    &:hover {
+        background-color: darken($cor-botao, 10%); 
+    }
+}
+
 .btn-roxo-escuro {
     background-color: $cor-roxa-escura;
     color: white;
-    &:hover { background-color: darken($cor-roxa-escura, 10%); color: white;}
+    &:hover { 
+        background-color: darken($cor-roxa-escura, 10%); 
+        color: white;
+    }
 }
 
-// Círculo Interativo
+.btn-app {
+    small {
+        font-size: 0.6rem;
+    }
+}
+
+
+// ==========================================
+// 4. CABEÇALHO E HERO
+// ==========================================
+.hero-section {
+    background: $gradiente-hero;
+}
+
+.app-mockup {
+    width: 260px;
+    height: 520px;
+    border-radius: 2rem;
+}
+
+
+// ==========================================
+// 5. SECÇÃO: CÍRCULO INTERATIVO
+// ==========================================
 .circle-wrapper {
     width: 350px;
     height: 350px;
@@ -75,7 +86,7 @@ $cor-laranja-forte: #ff4733;
     .center-circle {
         width: 100%;
         height: 100%;
-        border: 15px solid rgba(131, 56, 236, 0.3); // Borda translúcida em volta
+        border: 15px solid rgba(131, 56, 236, 0.3); 
         transition: all 0.3s ease-in-out;
     }
 
@@ -99,7 +110,15 @@ $cor-laranja-forte: #ff4733;
     }
 }
 
-// Cartões de Preços
+// Transição suave para o texto dentro do círculo
+#circle-title, #circle-desc {
+    transition: opacity 0.3s ease-in-out;
+}
+
+
+// ==========================================
+// 6. SECÇÃO: PLANOS E PREÇOS
+// ==========================================
 .pricing-card {
     transition: transform 0.3s;
     
@@ -108,11 +127,10 @@ $cor-laranja-forte: #ff4733;
     }
 }
 
-#circle-title, #circle-desc {
-    transition: opacity 0.3s ease-in-out;
-}
 
-// Rodapé
+// ==========================================
+// 7. RODAPÉ (Footer)
+// ==========================================
 .footer-link, .footer-icon {
     transition: color 0.3s ease;
     &:hover {

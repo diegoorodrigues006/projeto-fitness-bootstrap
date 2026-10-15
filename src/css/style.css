@@ -1,33 +1,5 @@
-.hero-section {
-  background: linear-gradient(135deg, #7b3894, #c94b4b);
-}
-
-.btn-destaque {
-  background-color: #ff4733;
-  border: none;
-}
-.btn-destaque:hover {
-  background-color: #ff1900;
-}
-
-.btn-app small {
-  font-size: 0.6rem;
-}
-
-.app-mockup {
-  width: 260px;
-  height: 520px;
-  border-radius: 2rem;
-}
-
 .secao-laranja {
   background-color: #ff4d33;
-}
-
-.hr-customizado {
-  width: 100px;
-  border-top: 2px solid rgba(255, 255, 255, 0.3);
-  opacity: 1;
 }
 
 .secao-roxa {
@@ -54,6 +26,20 @@
   color: #ff4733;
 }
 
+.hr-customizado {
+  width: 100px;
+  border-top: 2px solid rgba(255, 255, 255, 0.3);
+  opacity: 1;
+}
+
+.btn-destaque {
+  background-color: #ff4733;
+  border: none;
+}
+.btn-destaque:hover {
+  background-color: #ff1900;
+}
+
 .btn-roxo-escuro {
   background-color: #3d0066;
   color: white;
@@ -61,6 +47,20 @@
 .btn-roxo-escuro:hover {
   background-color: rgb(30.5, 0, 51);
   color: white;
+}
+
+.btn-app small {
+  font-size: 0.6rem;
+}
+
+.hero-section {
+  background: linear-gradient(135deg, #7b3894, #c94b4b);
+}
+
+.app-mockup {
+  width: 260px;
+  height: 520px;
+  border-radius: 2rem;
 }
 
 .circle-wrapper {
@@ -92,15 +92,15 @@
   background-color: #3d0066 !important;
 }
 
+#circle-title, #circle-desc {
+  transition: opacity 0.3s ease-in-out;
+}
+
 .pricing-card {
   transition: transform 0.3s;
 }
 .pricing-card .card-footer {
   background-color: #ff4733;
-}
-
-#circle-title, #circle-desc {
-  transition: opacity 0.3s ease-in-out;
 }
 
 .footer-link, .footer-icon {
