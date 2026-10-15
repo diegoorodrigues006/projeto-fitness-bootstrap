@@ -4,9 +4,11 @@
   <img src="https://img.shields.io/badge/Bootstrap-5.x-7952B3?style=for-the-badge&logo=bootstrap" alt="Bootstrap" />
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5" alt="HTML5" />
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3" alt="CSS3" />
+  <img src="https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white" alt="Sass" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
 </p>
 
-Bem-vindo ao projeto de landing page de academia e fitness, desenvolvido com Bootstrap. O objetivo deste repositório é criar uma interface moderna, responsiva e visualmente atraente para apresentar serviços de treinamento, planos, profissionais e contatos.
+Bem-vindo ao projeto de landing page de academia e fitness, desenvolvido com Bootstrap. O objetivo deste repositório é criar uma interface moderna, responsiva e visualmente atraente para apresentar [...]
 
 ---
 
@@ -38,6 +40,7 @@ Este projeto foi pensado para funcionar como um site institucional de uma academ
 
 - HTML5
 - CSS3
+- Sass
 - Bootstrap
 - JavaScript (quando necessário para interações)
 
