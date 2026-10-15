@@ -51,10 +51,10 @@ Este projeto foi pensado para funcionar como um site institucional de uma academ
 ```text
 projeto-fitness-bootstrap/
 ├── index.html
-├── assets/
+├── src/
 │   ├── css/
 │   ├── js/
-│   └── images/
+│   └── scss/
 ├── README.md
 └── LICENSE
 ```
